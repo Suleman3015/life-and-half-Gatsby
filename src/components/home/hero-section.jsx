@@ -4,6 +4,7 @@ import Video from '../../video/heroVideo.mp4'
 import '../../styles/home/hero.css';
 import {iconsData} from './dummy-data/icons';
 import BlockWrapper from './BlockWrapper';
+import {Feature} from './Feature';
 
 const Hero = () => {
     const [iconState, setIconsState] = useState(iconsData);
@@ -53,6 +54,7 @@ const Hero = () => {
             }            
         </section>
         <BlockWrapper />
+        <Feature />
         </React.Fragment>
     )
 }

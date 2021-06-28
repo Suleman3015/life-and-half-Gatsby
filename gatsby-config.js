@@ -8,7 +8,8 @@ module.exports = {
         name: 'home'
       }
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    'gatsby-plugin-postcss'
   ],
 
 }

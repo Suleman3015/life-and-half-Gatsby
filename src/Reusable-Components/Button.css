@@ -12,6 +12,7 @@
   height: 50px;
   display: block;
   max-width: 100%;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
@@ -32,6 +33,7 @@
   width: 100%;
   height: 50px;
   margin-bottom: 10px;
+  font-size: 17px;
   display: block;
 }
 
@@ -57,11 +59,13 @@
 @media (min-width: 200px) and (max-width: 500px) {
     .reuseable-Button {
         margin-right: 2px;
+        height: auto;
 
     }
 
     .reuseable-Button-2 {
         margin-right: 2px;
+        height: auto;
 
     } 
 } 
