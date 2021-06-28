@@ -1,5 +1,12 @@
 import React from "react"
+import Hero from "../components/home/hero-section"
+import Layout from "../template/Layout"
+
 
 export default function Home() {
-  return <div>Hello world...!</div>
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  )
 }
