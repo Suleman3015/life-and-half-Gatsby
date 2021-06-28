@@ -3,6 +3,7 @@ import Button from '../../Reusable-Components/Button'
 import Video from '../../video/heroVideo.mp4'
 import '../../styles/home/hero.css';
 import {iconsData} from './dummy-data/icons';
+import BlockWrapper from './BlockWrapper';
 
 const Hero = () => {
     const [iconState, setIconsState] = useState(iconsData);
@@ -18,6 +19,7 @@ const Hero = () => {
       });
 
     return (
+        <React.Fragment>
         <section className="hero__container">
 
             <div className="hero__titles">
@@ -39,15 +41,19 @@ const Hero = () => {
                     })}
                 </div>
             </div>
-            {isDesktop  ? <div className="hero__video">
-                <video  preload="auto" playsinline="" loop autoPlay muted poster="https://www.usehero.com/wp-content/uploads/2021/04/imgHeroMainPortrait@2x.jpg">
-	                <source src={Video} type="video/mp4" />																	
-                </video>
-            </div> : <div className="hero__video-2">
+            {isDesktop  ? 
+                <div className="hero__video">
+                    <video  preload="auto" playsinline="" loop autoPlay muted poster="https://www.usehero.com/wp-content/uploads/2021/04/imgHeroMainPortrait@2x.jpg">
+	                    <source src={Video} type="video/mp4" />																	
+                    </video>
+                </div> : 
+                <div className="hero__video-2">
                     <img src="https://2hrmp9bzmmx3f0xil1wyssgx-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/imgHeroMain@2x.png" alt="cover" />
-                </div>}
-            
+                </div>
+            }            
         </section>
+        <BlockWrapper />
+        </React.Fragment>
     )
 }
 
