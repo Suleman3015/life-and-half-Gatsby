@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Button from '../../Reusable-Components/Button';
+import ItalicHeading from '../../Reusable-Components/ItalicHeading';
 import '../../styles/home/middleContent.css'
 import Arrow from '../../svgs/arrow';
 import {MidContent} from './dummy-data/midContent';
@@ -9,6 +10,7 @@ const MiddleContent = () => {
 
     return (
         <div className="middle-comtent">
+            <ItalicHeading heading="BE THERE. VIRTUALLY." desc1="Your customers love to watch, chat and video call." desc2="Now they can shop with you the same way." />
           {midContent.map((items, index) => {
             return (
               (items.left) ?
