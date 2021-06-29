@@ -4,6 +4,8 @@ import Layout from "../template/Layout"
 
 
 export default function Home() {
+
+
   return (
     <Layout>
       <Hero />
