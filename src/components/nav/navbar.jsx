@@ -36,7 +36,7 @@ const Navbar = () => {
                         </div>}
                 </div>
 
-                {!show && <Hamburger clickFunc={HamShow} />}
+                {!show && <Hamburger show={show} clickFunc={HamShow} />}
 
 
             </div>

@@ -4778,24 +4778,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*********************************************************************************!*\
-  !*** external "/Users/macbook/Desktop/sandys/node_modules/react-dom/server.js" ***!
-  \*********************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** external "/home/mani/bootcamp/fiver projects/my-gatsby-project/node_modules/react-dom/server.js" ***!
+  \********************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/macbook/Desktop/sandys/node_modules/react-dom/server.js");;
+module.exports = require("/home/mani/bootcamp/fiver projects/my-gatsby-project/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!****************************************************************************!*\
-  !*** external "/Users/macbook/Desktop/sandys/node_modules/react/index.js" ***!
-  \****************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** external "/home/mani/bootcamp/fiver projects/my-gatsby-project/node_modules/react/index.js" ***!
+  \***************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/macbook/Desktop/sandys/node_modules/react/index.js");;
+module.exports = require("/home/mani/bootcamp/fiver projects/my-gatsby-project/node_modules/react/index.js");;
 
 /***/ })
 
