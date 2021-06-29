@@ -9,12 +9,14 @@ import { Feature } from './Feature';
 const Hero = () => {
     const [iconState, setIconsState] = useState(iconsData);
 
-    const [isDesktop, setDesktop] = useState(window.innerWidth > 900)
+    const [isDesktop, setDesktop] = useState(typeof window !== "undefined" ? window.innerWidth > 900 : null)
     const isBrowser = typeof window !== "undefined"
     const updateMedia = () => {
-
-        setDesktop(window.innerWidth > 1000);
-
+        if (typeof window !== "undefined") {
+            setDesktop(window.innerWidth > 1000);
+        } else {
+            return null
+        }
     };
 
     useEffect(() => {
