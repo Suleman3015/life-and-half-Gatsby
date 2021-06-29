@@ -55,7 +55,7 @@ const MiddleContent = () => {
                         <video className="object-cover object-center rounded" preload="auto" playsinline="" loop autoPlay muted poster="https://www.usehero.com/wp-content/uploads/2021/02/imgInspireStatic@2x.jpg">
                         <source src={items.video} />
                       </video></div>}
-                  <div className="lg:flex-grow md:w-1/2 lg:pl-60 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                  <div style={{marginTop: '1rem'}} className="lg:flex-grow md:w-1/2 lg:pl-60 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                       <img 
                       className="w-25 h-25 mb-8 object-cover object-center inline-block"
                       src={items.icon}
