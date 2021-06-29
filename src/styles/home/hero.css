@@ -19,8 +19,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
     flex-wrap: wrap;
     margin-top: 80px;
     position: relative;
@@ -59,6 +59,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .hero__imgs {
@@ -70,7 +71,7 @@ p {
     margin-right: 100px;
 }
 
-.hero__img img {
+.hero__img img{
     width: 55px;
     height: 55px;
 }
@@ -101,9 +102,11 @@ p {
         margin-left: 10px;
         margin-right: 7px;
     }
+
     .hero__titles {
         max-width: 72% !important;
     }
+
     .hero__imgs {
         display: flex;
         align-items: center;
@@ -119,14 +122,17 @@ p {
         top: 48em;
         flex-wrap: wrap;
     }
+
     .hero__video {
         display: none;
         /* background-image: url('https://2hrmp9bzmmx3f0xil1wyssgx-wpengine.netdna-ssl.com/wp-content/uploads/2021/02/imgHeroMain@2x.png'); */
     }
+
     .hero__video-2 {
         text-align: center;
         margin-top: 50px;
     }
+
     .hero__video-2 img {
         max-width: 60%;
         display: flex;
@@ -136,10 +142,12 @@ p {
         margin-bottom: 18vh;
         display: inline-block;
     }
+
     .hero__img {
         margin-right: 0px !important;
         margin-left: 0px !important;
     }
+
     .hero__video {
         margin-top: 18px;
     }
@@ -153,17 +161,21 @@ p {
         line-height: 58px !important;
         margin-bottom: 20px !important;
     }
+
     .hero__description {
         font-size: 20px !important;
         line-height: 25px !important;
         word-spacing: 1px !important;
         letter-spacing: 0px !important;
     }
+
     .hero__imgs {
         top: 46em;
         left: 15px;
         justify-content: space-around;
+            
     }
+
     .hero__buttons {
         flex-direction: column;
     }
