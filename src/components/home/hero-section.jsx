@@ -14,7 +14,7 @@ const Hero = () => {
         if (typeof window !== "undefined") {
             setDesktop(window.innerWidth > 1000);
         } else {
-            null
+            return (null)
         }
     };
 
